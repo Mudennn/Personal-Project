@@ -11,8 +11,8 @@ const sampleData = [
         "name": "NFT#1",
         "description": "First NFT",
         "website":"http://axieinfinity.io",
-        "image":"https://gateway.pinata.cloud/ipfs/QmTsRJX7r5gyubjkdmzFrKQhHv74p5wT9LdeF1m3RTqrE5",
-        "price":"0.03ETH",
+        "image":"https://gateway.pinata.cloud/ipfs/QmQwX3ecdmj5DPFrYs1Yuf3f14Wjg5PzBiCxq3wKvCXM5q",
+        "price":"0.03",
         "currentlySelling":"True",
         "address":"0xE4b174c889832d0f53B36f976aB842EB9c43C229",
     },
@@ -20,8 +20,8 @@ const sampleData = [
         "name": "NFT#2",
         "description": "Second NFT",
         "website":"http://axieinfinity.io",
-        "image":"https://gateway.pinata.cloud/ipfs/QmdhoL9K8my2vi3fej97foiqGmJ389SMs55oC5EdkrxF2M",
-        "price":"0.03ETH",
+        "image":"https://gateway.pinata.cloud/ipfs/QmQwX3ecdmj5DPFrYs1Yuf3f14Wjg5PzBiCxq3wKvCXM5q",
+        "price":"0.03",
         "currentlySelling":"True",
         "address":"0xE4b174c889832d0f53B36f976aB842EB9c43C229",
     },
@@ -29,14 +29,16 @@ const sampleData = [
         "name": "NFT#3",
         "description": "Third NFT",
         "website":"http://axieinfinity.io",
-        "image":"https://gateway.pinata.cloud/ipfs/QmTsRJX7r5gyubjkdmzFrKQhHv74p5wT9LdeF1m3RTqrE5",
-        "price":"0.03ETH",
+        "image": "https://gateway.pinata.cloud/ipfs/QmQwX3ecdmj5DPFrYs1Yuf3f14Wjg5PzBiCxq3wKvCXM5q",
+        "price":"0.03",
         "currentlySelling":"True",
         "address":"0xE4b174c889832d0f53B36f976aB842EB9c43C229",
     },
 ];
 const [data, updateData] = useState(sampleData);
 const [dataFetched, updateFetched] = useState(false);
+
+
 
 async function getAllNFTs() {
     const ethers = require("ethers");
