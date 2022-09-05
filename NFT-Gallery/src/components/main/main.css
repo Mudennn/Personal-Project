@@ -1,0 +1,272 @@
+.main {
+    max-height: 150vh;
+    margin-top: 3rem;
+}
+
+.tittle_container {
+    background: white;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.main_tittle {
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 1.5rem;
+    color: orange;
+    text-shadow: 0 3px black;
+}
+
+.main_content {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;  
+    /* border-top: 1px solid #fff;  */
+    
+}
+
+.bnw_highlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+}
+
+.bnw_container {
+    /* border-radius: 20px; */
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+    background: white;
+    padding: 10px;
+}
+
+.selected_bnw {
+    object-fit: contain;
+    max-width: min(30vw, 40vh);
+    max-height: 50vw;
+}
+
+/* bnw DETAILS  */
+
+.bnw_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+    margin-right: 30px;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.description {
+    margin-right: 15rem;
+}
+
+.description > h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.item_number {
+    /* color: var(--color-light); */
+    font-size: 2.5rem;
+    align-self: center;
+    color: orange;
+}
+
+.owner {
+    display: flex;
+    margin: 10px 0;
+    height: 50px;
+    
+}
+
+.owner > div {
+    margin: 0 5px;
+}
+
+.owenerImage_container {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.owenerImage_container > img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* OWNER DETAIL */
+.owner_details {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+
+.owner_nameandhandle {
+    flex: 1;
+}
+
+.owner_handle {
+    color:#fff;
+}
+
+/* CTA */
+.owner_link {
+    padding: 12px;
+    border-radius: 50px;
+    /* height: 50px;
+    width: 50px; */
+    border: 1px solid orange;
+    margin: 0 0 0 10px;
+    
+}
+
+.owner_link > a {
+    height: 100%;
+    width: 100%;
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+.owner_link > a:hover {
+    color: orange;
+}
+
+/* DESCRIPTION TITLE  */
+
+.click_description {
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 300;
+    font-family: 'Press Start 2P';
+    font-size: 0.8rem;
+    color: orange;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .main_tittle {
+        font-size: 1rem;
+    }
+    .bnw_highlight {
+        margin-left: 100px;
+    }
+    
+    .title {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .description {
+        margin-right: 0;
+    }
+    .description > h3 {
+        font-size: 0.7rem;
+        font-weight: 300;
+        margin-top: 1rem;
+        
+    }
+    .item_number {
+        color: orange;
+        font-size: 22px;
+        align-self: center;
+    }
+
+    .owenerImage_container{
+        height: 30px;
+        width: 30px;
+    }
+
+    .owner_nameandhandle {
+        font-size: 13px;
+        margin-bottom: 1rem;
+    }
+
+    .owner_link{
+        display: none;
+    }
+}
+
+
+/* ========== MEDIA QUERIES (PHONE) ========== */
+
+@media screen and (max-width: 600px) {
+    .main {
+        padding-top: 2rem;
+    }
+    .main_tittle {
+        font-size: 0.9rem;
+    }
+
+    .main_content {
+        display: grid;
+        align-items: center;
+    }
+
+    .bnw_highlight{
+        margin-left: 0;
+    }
+
+    .bnw_container{
+        margin-right: 0;
+    }
+
+    .bnw_details{
+        margin-right: 0;
+        
+    }
+
+    .title {
+        padding-top: 1rem;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .description {
+        margin-right: 0;
+    }
+
+    .description > h3 {
+        font-size: 13px;
+        font-weight: 300;
+        padding: 0.8rem 1rem 1rem 1rem;
+        line-height: 1.5;
+    }
+
+    .item_number {
+        font-size: 13px;
+    }
+
+    .bnw_details {
+        align-items: center;
+    }
+    .owner_link  {
+        display: none;
+    }
+
+    .selected_bnw {
+        object-fit: contain;
+        max-width: min(70vw, 80vh);
+        max-height: 70vw;
+    }
+    
+    
+    
+}   
+

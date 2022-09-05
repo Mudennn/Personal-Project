@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    /* overflow: scroll; - boleh buat kalau nak bg satu line */
+}
+
+.container.bnwlist_container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+
+
+/* ========== MEDIA QUERIES (PHONE) ========== */
+
+@media screen and (max-width: 600px) {
+    .container.bnwlist_container{
+        /* grid-template-columns: 1fr; */
+        /* gap: 2rem; */
+        display: flex;
+        overflow: scroll;
+        
+    }
+    .container.bnwlist_container::-webkit-scrollbar{
+        display: none;
+    }
+
+}

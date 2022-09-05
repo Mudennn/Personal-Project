@@ -1,0 +1,141 @@
+
+
+header {
+    height: 100vh;
+    padding-top: 2%;
+    width: max-content;
+}
+
+.header_container{
+    /* color: white; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_container > div {
+    margin: 10px;
+}
+
+.logo_container {
+    font-family: 'Press Start 2P';
+    text-shadow: 0 5px orange;
+}
+
+/* .logo {
+    width: 200px;
+    margin-left: 40px;
+} */
+
+
+/* SEARCHBAR  */
+
+.searchbar_container {
+    background: var(--color-white) ;
+    height: 39px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.searchbar_icon {
+    margin: 10px;
+}
+
+.searchbar {
+    background: transparent;
+    border: none;
+    width: 100%;
+    color: var(--color-white);
+    outline: none;
+    font-size: 16px;
+}
+
+.searchbar::placeholder {
+    color: black;
+}
+
+/* HEADER ITEMS  */
+
+.header_items {
+    display: flex;
+    gap: 1rem;
+}
+
+/* THEME SWITCH  */
+
+.header_action{
+    display: flex;
+    align-items: center;
+}
+
+.header_action > div {
+    margin: 10px;
+}
+
+.theme_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.switch_icon {
+    width: 45px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+/* GET IN BUTTON  */
+.btn.btn-primary {
+    color: var(--color-white);
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .searchbar{
+        font-size: 12px;
+    }
+
+    .searchbar_container {
+        display: none;
+    }
+
+    .btn.btn-primary {
+        margin-left: 0;
+    }
+   
+}
+
+
+/* ========== MEDIA QUERIES (PHONE) ========== */
+
+@media screen and (max-width: 600px) {
+    .container.header_container { 
+        padding-top: 2rem;
+        justify-content: center;
+        display: grid;
+    }
+
+    .logo_container {
+        text-align: center;
+    }
+
+    .searchbar_container {
+        display: none;
+    }
+
+    .btn.btn-primary {
+        display: none;
+        margin-left: 0;
+        /* align-self: center; */
+        /* justify-content: center; */
+        align-content: center;
+    }
+}
