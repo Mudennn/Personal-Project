@@ -7,7 +7,7 @@ function NFTTile (data) {
     const newTo = {
         pathname:"/nftPage/"+data.data.tokenId
     }
-
+    // convert number to string and to shorten it
     const address = data.data.seller;
     const subAddress = `${address}`.substring(0,8)+'...'
     
