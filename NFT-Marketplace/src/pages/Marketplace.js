@@ -11,7 +11,7 @@ const sampleData = [
         "name": "NFT#1",
         "description": "First NFT",
         "website":"http://axieinfinity.io",
-        "image":"https://gateway.pinata.cloud/ipfs/QmXiHeeEVnr5Q4iK5MusFF18rtTo6eb9SJd1h3nZULcPzxq",
+        "image":"https://gateway.pinata.cloud/ipfs/QmXiHeeEVnr5Q4iK5MusFF18rtTo6eb9SJd1h3nZULcPzx",
         "price":"0.03",
         "currentlySelling":"True",
         "address":"0xE4b174c889832d0f53B36f976aB842EB9c43C229",
