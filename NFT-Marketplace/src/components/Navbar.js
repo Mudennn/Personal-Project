@@ -105,7 +105,7 @@ const Navbar = () => {
                         <CustomLink className='md:mt-0 mt-4 md:text-base text-xl hover:text-purple-600 cursor-pointer' to="/profile">Profile</CustomLink>
                         <CustomLink className='md:mt-0 mt-4 md:text-base text-xl hover:text-purple-600 cursor-pointer' to="/sellnft">List My NFT</CustomLink>
                         <button className=" enableEthereumButton bg-blue-500 md:mt-0 mt-5 text-white font-bold py-2 px-4 border border-blue-70 rounded">
-                        <img src="./mm.png" alt="metamask logo" className='h-5 mr-2 inline' />
+                        <img src="./mm.png" alt="" className='h-5 mr-2 inline' />
                         {walletConnected ? (currAddress.substring(0,8)+'...'):"Connect Wallet"}
                         </button>
                     </ul>
