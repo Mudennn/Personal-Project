@@ -79,7 +79,7 @@ if(!dataFetched)
 return (
     <div>
         <Navbar />
-        <div className="dark:bg-gray-800 dark:text-gray-100">
+        <div className="bg-gray-800 text-gray-100">
             <div className="container flex flex-col justify-center p-6 mx-auto items-center gap-0 sm:py-12 lg:py-14 lg:flex-row md:gap-5 lg:gap-[10rem]">
                 <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                     <h2 className="text-4xl font-bold leading-none sm:text-4xl">What is NFT?</h2>
@@ -90,7 +90,7 @@ return (
                    
                     <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                         <a rel="noopener noreferrer" href="https://www.simplilearn.com/tutorials/blockchain-tutorial/what-is-nft" target="_blank" 
-                        className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 hover:bg-violet-700 dark:text-gray-900">Learn More</a>
+                        className="px-8 py-3 text-lg font-semibold rounded bg-violet-400 hover:bg-violet-700 text-gray-900">Learn More</a>
                     </div>
                 </div> 
                 

@@ -13,7 +13,7 @@ function NFTTile (data) {
     
     return (
         <Link to={newTo}>
-            <div className="max-w-xs overflow-hidden bg-grey-800 rounded-lg shadow-lg dark:bg-white m-3 pb-2">
+            <div className="max-w-xs overflow-hidden bg-grey-800 rounded-lg shadow-lg bg-white m-3 pb-2">
                 <div className="px-4 py-2">
 
                     <div className="flex flex-row my-2">
@@ -25,7 +25,7 @@ function NFTTile (data) {
 
                     <img src={data.data.image} alt="" className="object-cover w-full h-full mt-2" />
 
-                    <h3 className="text-xl font-bold py-3 text-white  dark:text-gray-800">{data.data.name}</h3>    
+                    <h3 className="text-xl font-bold py-3 text-gray-800">{data.data.name}</h3>    
                     
                     <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
                         <h1 className="text-lg font-bold text-white">{data.data.price}ETH</h1>
