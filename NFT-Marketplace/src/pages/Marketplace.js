@@ -79,7 +79,7 @@ if(!dataFetched)
 return (
     <div>
         <Navbar />
-        <div className="bg-gray-800 text-gray-100">
+        <div className="text-gray-100">
             <div className="container flex flex-col justify-center p-6 mx-auto items-center gap-0 sm:py-12 lg:py-14 lg:flex-row md:gap-5 lg:gap-[10rem]">
                 <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                     <h2 className="text-4xl font-bold leading-none sm:text-4xl">What is NFT?</h2>

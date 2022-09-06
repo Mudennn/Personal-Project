@@ -144,7 +144,7 @@ return (
               </div>
               <br></br>
           <div className='text-green text-center'>{message}</div>
-          <button onClick = {listNFT} className='font-bold mt-5 w-full dark:bg-violet-400 hover:bg-violet-700 dark:text-gray-900  rounded p-2 shadow-lg'>List NFT</button>
+          <button onClick = {listNFT} className='font-bold mt-5 w-full bg-violet-400 hover:bg-violet-700 text-gray-900  rounded p-2 shadow-lg'>List NFT</button>
           </form>
         </div>
       </div>
