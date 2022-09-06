@@ -91,7 +91,7 @@ const Navbar = () => {
   return (
     <div>
         {/* RESPONSIVE NAVBAR*/}
-            <div className='shadow-md w-full top-0 left-0'>
+            <div className='w-full top-0 left-0'>
                 <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
                     <Link to="/" className='text-3xl font-bold text-transparent sm:text-4xl bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'>NFTs</Link>
                 
